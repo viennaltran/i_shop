@@ -2,8 +2,6 @@ import React, {Component} from 'react';
 
 class SideNav extends Component{
     componentDidMount(){
-        console.log('Side Nav Ref:', this.sideNav);
-
         this.instance =M.Sidenav.init(this.sideNav);
     }
 
